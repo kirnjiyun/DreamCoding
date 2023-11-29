@@ -29,7 +29,7 @@ class PartTimeEmployee extends Employee {
   }
 }
 
-const ellie = new FullTimeEmployee('엘리', 's/w', 30);
-const bob = new PartTimeEmployee('밥', 's/w', 20);
+const ellie = new FullTimeEmployee("엘리", "s/w", 30);
+const bob = new PartTimeEmployee("밥", "s/w", 20);
 console.log(ellie.calculatePay());
 console.log(bob.calculatePay());
