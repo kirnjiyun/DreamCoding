@@ -6,7 +6,7 @@ let item = { price: 1 };
 const price = item?.price;
 console.log(price);
 
-let obj = { name: '🐶', owner: { name: '엘리' } };
+let obj = { name: "🐶", owner: { name: "엘리" } };
 function printName(obj) {
   const ownerName = obj?.owner?.name;
   console.log(ownerName);
