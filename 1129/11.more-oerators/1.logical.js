@@ -55,5 +55,5 @@ function print(message) {
 }
 print();
 print(undefined);
-print(null);
-print(0);
+print(null); //그냥 전달한 값 그대로
+print(0); //그냥 전달한 값 그대로

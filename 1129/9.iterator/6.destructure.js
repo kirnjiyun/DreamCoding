@@ -1,7 +1,7 @@
 // 구조 분해 할당 Desturcturing Assignment
 // 데이터 뭉치(그룹화)를 쉽게 만들수 있다
 const fruits = ["🍏", "🥝", "🍓", "🍌"];
-const [first, second, ...others] = fruits;
+const [first, second, ...others] = fruits; //그냥 인덱스로 뽑아내는게 아니고 새로운 이름을 지어줘서 거기서 뽑아내고싶다.
 console.log(first);
 console.log(second);
 console.log(others);
@@ -16,6 +16,7 @@ function createEmoji() {
   return ["apple", "🍎"];
 }
 const [title, emoji] = createEmoji();
+//얘도 좀 더 의미있는 이름으로 받아오고싶은거임 index[0],[1]말고
 console.log(title);
 console.log(emoji);
 
@@ -30,7 +31,7 @@ display(ellie);
 const { name, age, job: occupation, pet = "강아지" } = ellie;
 console.log(name);
 console.log(age);
-console.log(occupation);
+console.log(occupation); //job 대신 occupation
 console.log(pet);
 
 // Quiz

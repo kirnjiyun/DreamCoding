@@ -25,7 +25,7 @@ for (let item of array.values()) {
   console.log(item);
 }
 
-const obj = { id: 123, name: 'Ellie' };
+const obj = { id: 123, name: "Ellie" };
 for (const key in obj) {
   console.log(key);
 }
