@@ -11,6 +11,6 @@ function c() {
   return b() + 1;
 }
 
-console.log('시작했다!');
+console.log("시작했다!");
 const result = c();
 console.log(result);
