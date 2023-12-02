@@ -4,10 +4,10 @@
 // stringify(object): JSON
 // parse(JSON): object
 const ellie = {
-  name: 'ellie',
+  name: "ellie",
   age: 20,
   eat: () => {
-    console.log('eat');
+    console.log("eat");
   },
 };
 
