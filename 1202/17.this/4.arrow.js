@@ -2,10 +2,10 @@
 // 함수처럼 사용, 생성자 함수로 사용 (클래스)
 // 하지만, 이걸 위해서 불필요한 무거운 프로토타입(많은 데이터를 담고 있는 객체) 생성됨
 const dog = {
-  name: 'Dog',
+  name: "Dog",
   play: function () {
     // 💩
-    console.log('논다멍');
+    console.log("논다멍");
   },
 };
 dog.play();
@@ -14,10 +14,10 @@ console.log(obj);
 
 // ES6
 const cat = {
-  name: 'cat',
+  name: "cat",
   play() {
     // 객체의 메서드 (오브젝트에 속한 함수)
-    console.log('냐옹');
+    console.log("냐옹");
   },
 };
 cat.play();

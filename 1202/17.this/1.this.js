@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 /**
  * 글로벌 컨텍스트의 this
  *  - 브라우저: window
@@ -31,7 +31,7 @@ function Cat(name) {
     console.log(this.name);
   };
 }
-const cat1 = new Cat('냐옹');
-const cat2 = new Cat('미야옹');
+const cat1 = new Cat("냐옹");
+const cat2 = new Cat("미야옹");
 cat1.printName();
 cat2.printName();

@@ -16,8 +16,8 @@ function Dog(name) {
   };
 }
 
-const cat = new Cat('냐옹');
-const dog = new Dog('멍멍');
+const cat = new Cat("냐옹");
+const dog = new Dog("멍멍");
 cat.printName();
 dog.printName();
 
@@ -26,7 +26,7 @@ dog.printName();
 cat.printName();
 
 function printOnMonitor(printName) {
-  console.log('모니터를 준비하고!, 전달된 콜백을 실행!');
+  console.log("모니터를 준비하고!, 전달된 콜백을 실행!");
   printName();
 }
 

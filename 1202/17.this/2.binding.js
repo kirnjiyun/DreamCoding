@@ -9,7 +9,7 @@ function Cat(name) {
   this.printName = function () {
     console.log(`고양이의 이름을 출력한다옹: ${this.name}`);
   };
-}
+} //현재 this 누구인지 모르는데 아래쪽에 new 생성자 이용해서 객체를 만드는 순간 this 만들어질 object 자신을 의미 빈 오브젝트에 냐옹 할당
 
 function Dog(name) {
   this.name = name;
@@ -18,17 +18,17 @@ function Dog(name) {
   };
 }
 
-const cat = new Cat('냐옹');
-const dog = new Dog('멍멍');
+const cat = new Cat("냐옹");
+const dog = new Dog("멍멍");
 cat.printName();
 dog.printName();
 
 dog.printName = cat.printName;
-dog.printName();
+dog.printName(); //고양이의 이름을 출력한다옹: 멍멍이 나온다.
 cat.printName();
 
 function printOnMonitor(printName) {
-  console.log('모니터를 준비하고!, 전달된 콜백을 실행!');
+  console.log("모니터를 준비하고!, 전달된 콜백을 실행!");
   printName();
 }
 
